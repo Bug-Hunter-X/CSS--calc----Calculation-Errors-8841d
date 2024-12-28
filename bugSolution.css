@@ -1,0 +1,11 @@
+/* Correct use of calc() with parentheses and compatible units */
+#container {
+  width: calc(100% - 20px);
+  /* Compatible units */
+  height: calc(50% + 100px);
+}
+/* Incorrect use of calc(), missing parentheses and incompatible units */
+/* #container {
+  width: calc 100% - 20px; /* Incorrect: Missing parentheses */
+  height: calc 50% + 100px; /* Incorrect: Missing parentheses and incompatible units */
+} */
